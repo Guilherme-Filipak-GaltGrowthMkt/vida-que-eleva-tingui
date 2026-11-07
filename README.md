@@ -7,7 +7,7 @@ Igreja Adventista do Tingui · Rua Guilherme Ihlenfeldt, 778, Curitiba
 - `index.html` (inscrição), `obrigado.html` (dispara o evento Lead do Pixel), `privacidade.html`
 - Publicação: GitHub Pages em https://guilherme-filipak-galtgrowthmkt.github.io/vida-que-eleva-tingui/
 - Pixel da Meta: 1290472262966621 (o mesmo da conta CA01 - IASD Tingui)
-- `obrigado.html`: preencher `WHATSAPP_GROUP_URL` com o link do grupo; vazio, a página só confirma a inscrição.
+- `obrigado.html`: botão do grupo do WhatsApp (`WHATSAPP_GROUP_URL`).
 
 ## Planilha
 - [Inscrições · Vida que Eleva · IASD Tingui](https://docs.google.com/spreadsheets/d/1Ob0YqRD0EqWkAyL7hh9lnHl3JKC85n-BTHKAwwFyyv4/edit)
