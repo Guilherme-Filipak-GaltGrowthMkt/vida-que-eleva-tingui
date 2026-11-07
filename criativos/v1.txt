@@ -1,0 +1,8 @@
+duração: 26.7s
+[   0.0-   5.0] Você que mora na região do Bacacheri, do Tinguí, temos um convite especial para você.
+[   5.0-  10.5] De 11 a 14 de novembro, às 20 horas, quero convidar você para um programa Vidas Que Eleve.
+[  10.5-  16.0] Serão encontros com reflexões bíblicas sobre fé, escolhas e recomeços,
+[  16.0-  17.4] pertinho da Rua Cidadania.
+[  17.4-  22.0] É gratuito, vem a você, sua família e a vontade de respirar um pouco.
+[  22.0-  24.9] Clique aqui e receba todas as informações.
+[  24.9-  25.7] Te esperamos.

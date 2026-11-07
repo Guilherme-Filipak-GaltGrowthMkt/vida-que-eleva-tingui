@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inscrição recebida · Vida que Eleva</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#7A2E4D">
+<!-- Meta Pixel: PageView + Lead (a pessoa só chega aqui depois de enviar o formulário) -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1290472262966621');
+fbq('track', 'PageView');
+// não conta de novo se a pessoa recarregar a página
+(function(){
+  var k = 'lead_sent_vqe';
+  try { if (sessionStorage.getItem(k)) return; sessionStorage.setItem(k, '1'); } catch (_) {}
+  fbq('track', 'Lead', {content_name: 'Vida que Eleva'});
+})();
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1290472262966621&ev=PageView&noscript=1"></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#F4EAE2;--wine:#7A2E4D;--blush:#F0DCE2;--ink:#3A2A2E;--muted:#6F5F63;--wa:#1FAF5A}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--cream);color:var(--ink);font-family:"Open Sans",system-ui,sans-serif;font-size:17px;line-height:1.55;min-height:100vh;display:grid;place-items:center;padding:24px 16px}
+  .card{background:#fff;max-width:560px;width:100%;border-radius:24px;padding:36px 28px;box-shadow:0 20px 50px rgba(94,33,57,.12);text-align:center}
+  .progress{height:10px;background:var(--blush);border-radius:999px;overflow:hidden;margin:0 0 10px}
+  .progress span{display:block;height:100%;width:85%;background:var(--wine);border-radius:999px}
+  .step{font-size:.85rem;font-weight:700;color:var(--wine);letter-spacing:.08em;text-transform:uppercase}
+  h1{font-family:"Playfair Display",serif;font-weight:900;font-size:clamp(1.8rem,6vw,2.4rem);line-height:1.1;margin:22px 0 12px}
+  p{color:var(--muted)}
+  .wa{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-weight:700;font-size:1.15rem;padding:18px 22px;border-radius:14px;margin:28px 0 14px;box-shadow:0 8px 22px rgba(31,175,90,.3);animation:pulse 2s infinite}
+  .wa svg{width:26px;height:26px}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+  ul{list-style:none;text-align:left;display:grid;gap:10px;background:var(--cream);border-radius:16px;padding:18px 20px;margin-top:20px}
+  li{display:flex;gap:10px}
+  li::before{content:"✓";color:var(--wine);font-weight:700}
+  .small{font-size:.85rem;margin-top:18px}
+  .done .progress span{width:100%}
+</style>
+</head>
+<body>
+  <main class="card" id="card">
+    <div class="progress"><span></span></div>
+    <div class="step" id="step">Inscrição quase pronta</div>
+    <h1 id="title">Falta só um passo!</h1>
+    <p id="msg">Para concluir, entre no grupo do WhatsApp da Vida que Eleva. É por lá que você recebe os horários, os lembretes e as novidades da semana.</p>
+
+    <a class="wa" id="wa" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2S21.8 6.6 21.8 12 17.4 21.8 12 21.8zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
+      Entrar no grupo do WhatsApp
+    </a>
+
+    <ul>
+      <li>O grupo é só de avisos: ninguém fica mandando mensagem</li>
+      <li>Você recebe só as informações da semana</li>
+      <li>Pode sair quando quiser, depois do evento</li>
+    </ul>
+
+    <p class="small">Quarta 11 a sexta 13/11 às 20h · Sábado 14/11 a partir das 9h15<br>Igreja Adventista do Sétimo Dia Tingui<br>Rua Guilherme Ihlenfeldt, 778 · Tingui, Curitiba</p>
+  </main>
+
+<script>
+  // Link de convite do grupo (WhatsApp → Grupo → Convidar via link). Vazio = página só confirma a inscrição.
+  const WHATSAPP_GROUP_URL = '';
+
+  const n = new URLSearchParams(location.search).get('n');
+  if (WHATSAPP_GROUP_URL) {
+    document.getElementById('wa').href = WHATSAPP_GROUP_URL;
+    if (n) document.getElementById('title').textContent = `${n}, falta só um passo!`;
+  } else {
+    document.getElementById('card').classList.add('done');
+    document.getElementById('wa').remove();
+    document.getElementById('step').textContent = 'Inscrição confirmada';
+    document.getElementById('title').textContent = n ? `${n}, sua inscrição foi recebida!` : 'Sua inscrição foi recebida!';
+    document.getElementById('msg').textContent = 'Em breve você recebe pelo WhatsApp os horários e os lembretes da semana. Te esperamos!';
+    document.querySelector('ul').remove();
+  }
+</script>
+</body>
+</html>
