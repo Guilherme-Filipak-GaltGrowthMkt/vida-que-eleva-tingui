@@ -35,7 +35,7 @@ def call(path, method='POST', files=None, host='graph.facebook.com', **params):
 
 def get(path, **params):
     q = '&'.join(f'{k}={v}' for k, v in params.items())
-    out = subprocess.run(['curl', '-s', f'https://graph.facebook.com/{V}/{path}?{q}&access_token={TOKEN}'],
+    out = subprocess.run(['curl', '-s', '-g', f'https://graph.facebook.com/{V}/{path}?{q}&access_token={TOKEN}'],
                          capture_output=True, text=True).stdout
     return json.loads(out)
 
